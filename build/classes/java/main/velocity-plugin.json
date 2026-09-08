@@ -1,0 +1,1 @@
+{"id":"offlinefix","name":"OfflineFix","version":"1.0.0","description":"Force onlineMode\u003dtrue on the join-game packet so offline players see TAB heads like on an online-mode server.","authors":["ygbs"],"dependencies":[{"id":"packetevents","optional":false}],"provides":[],"main":"net.ypixel.offlinefix.OfflineFixPlugin"}
