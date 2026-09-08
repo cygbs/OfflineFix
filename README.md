@@ -46,3 +46,7 @@ Artifact: `build/libs/OfflineFix.jar` (a plain jar; PacketEvents is `provided` a
 ## Porting
 
 This plugin only handles the two server→player packets, "login packet" and "player list", and is independent of the specific backend game server; the logic can be ported to any other Netty-based proxy/server. The conclusion is the same there: **a `onlineMode=true` login packet + full signed textures passed through untouched** = the two necessary and sufficient conditions for offline clients to display premium TAB avatars.
+
+## License
+
+GPLv3-or-later
