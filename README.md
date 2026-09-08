@@ -23,7 +23,7 @@ Other players' **real skins** depend on a second condition: each player-list ent
 ## Build
 
 ```bash
-cd /home/ygbs/项目/OfflineFix
+cd OfflineFix
 gradle build
 ```
 
